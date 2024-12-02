@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.introSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    width: 400px;
+}
+
+.introSection h1, 
+.introSection h3 {
+    margin: 0px;
+}
+
+.pictureSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+
+.pictureSection img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.socialLinks {
+    margin: 20px 0px!important;
+}
+
+@media screen and (max-width: 875px){
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .introSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+

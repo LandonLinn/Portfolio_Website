@@ -1,13 +1,44 @@
+/* GLOBAL STYLES (For fonts) */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: White;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+hr {
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 1px solid #515151;
+}
+
+li::marker{
+    color: #0077b6;
+}
+
+span {
+    color: #0077b6;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #FCA311;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p, li, em, label, input, textarea{
+    font-size: 1.15rem;
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    margin: 0px;
 }

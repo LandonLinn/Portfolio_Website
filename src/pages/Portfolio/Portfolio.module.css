@@ -1,0 +1,118 @@
+.portfolioContainer {
+    height: auto;
+    width: 100%;
+}
+
+.buttonsContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.buttonsContainer button {
+    background: none;
+    width: 25%;
+    border: 2px solid #0077b6;
+    color: #0077b6;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.buttonsContainer button:hover {
+    cursor: pointer;
+    background: #FCA311;
+    border: 2px solid #FCA311;
+    color: white;
+}
+
+.buttonsContainer button:active {
+    background: #905d0a;
+    border: 2px solid #905d0a;
+}
+
+.projectCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #515151;
+    border-radius: 20px;
+    padding: 20px;
+    width: calc(50% - 50px);
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: #FCA311;
+}
+
+.card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardDesc {
+    max-height: auto;
+}
+
+.card h3{
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 10px 0px;
+}
+
+.projectURL {
+    color: #515151;
+    text-decoration: none;
+}
+
+.projectURL:hover {
+    color: #FCA311;
+}
+
+@media screen and (max-width: 950px) {
+    .buttonsContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttonsContainer button {
+        width: calc(50% - 10px);
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .buttonsContainer{
+        flex-direction: column;
+    }
+
+    .buttonsContainer .buttons{
+        width: 100%;
+    }
+
+    .projectCardContainer{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card {
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cardDesc {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

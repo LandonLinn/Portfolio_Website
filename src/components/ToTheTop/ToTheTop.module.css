@@ -1,0 +1,46 @@
+.topPageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.topPageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 10px;
+    background-color: #313131;
+    border: 2px solid #0077b6;
+    border-radius: 10px;
+    color: #0077b6;
+    font-size: 2rem;
+}
+
+.topPageButton:hover {
+    cursor: pointer;
+    border: 2px solid #FCA311;
+    background-color: #FCA311;
+    color: #FCA311;
+}
+
+.topPageButton:focus {
+    background-color: #313131;
+    border: 2px solid #0077b6;
+}
+
+.topPageButton img {
+    width: 30px;
+    height: auto;
+}
+
+@media screen and (max-width: 1504px) {
+    
+    .topPageContainer {
+        visibility: visible;
+    }
+}

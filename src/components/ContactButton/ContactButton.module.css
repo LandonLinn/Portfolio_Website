@@ -1,0 +1,20 @@
+.contactButton {
+    background: none;
+    border: 2px solid #0077b6;
+    color: #0077b6;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.contactButton:hover {
+    cursor: pointer;
+    background: #FCA311;
+    border: 2px solid #FCA311;
+    color: white;
+}
+
+.contactButton:active {
+    background: #905d0a;
+    border: 2px solid #905d0a;
+}

@@ -1,0 +1,9 @@
+.container{
+    text-align: center;
+    
+}
+
+.profilePicture {
+    max-height: 175px;
+    max-width: 175px;
+}

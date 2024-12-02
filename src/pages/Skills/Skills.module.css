@@ -1,0 +1,76 @@
+.sectionTitle{
+    height: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+.cardContainer{
+    width: 25%;
+    height: 100%;
+    margin: 0px 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    background: linear-gradient(#313131, #313131) padding-box,
+              linear-gradient(to right, #0077b6, #FCA311) border-box;
+    border: 4px solid transparent;
+}
+
+.certContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certTitle {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.certTitle img {
+    height: 100%;
+    width: auto;
+    padding-right: 20px;
+    object-fit: contain;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 875px){
+    .container{
+        flex-direction: column;
+    }
+
+    .cardContainer{
+        width: auto;
+        height: 100%;
+        margin: 0px 10px;
+        margin: 0px;
+    }
+
+    .sectionTitle{
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .certTitle {
+        margin: 40px 0px;
+    }
+}

@@ -1,0 +1,25 @@
+nav{
+    margin: 16px 0px;
+    width: 100%;
+}
+
+.navContainer{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.inactiveLink{
+    color: #515151;
+    text-decoration: none;    
+}
+
+.activeLink {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+.inactiveLink:hover{
+    color: #FCA311;
+}
