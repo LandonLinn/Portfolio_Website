@@ -16,8 +16,8 @@ const projects = [
         role: "Developer", 
         url: [
             {
-                behance: "",
-                github: "",
+                behance: "https://www.behance.net/gallery/214052755/Personal-Portfolio-Website",
+                github: "https://github.com/LandonLinn/Portfolio_Website/tree/master",
             }
         ],
         img: "../assets/PortfolioImages/portfolio-homepage.png", 
@@ -50,48 +50,48 @@ const projects = [
             "By building this project, I gained hands-on experience in structuring content, creating interactive elements, and ensuring cross-device compatibility. The project also served as an opportunity to implement best practices in UI/UX design, as I focused on delivering a simple and intuitive user experience. As a result, I now have a professional online presence that not only highlights my technical skills but also reflects my attention to detail and commitment to continuous learning."
         ],
     },
-    { 
-        id: 2, 
-        slug: "IBCTrafficWebsite",
-        name: "IBC Traffic, Inc Website", 
-        category: "Front-End", 
-        desc: "I worked closely with senior management to define the business requirements for a corporate website redesign, resulting in a more intuitive user experience and a noticeable increase in both site traffic and conversions. My role involved designing dynamic website features using Figma for prototyping and implementing them on Squarespace, utilizing custom HTML, CSS, and JavaScript to enhance functionality and aesthetics. Throughout the project, I conducted continuous user testing and incorporated feedback, refining the design to ensure it met both user expectations and business goals.", 
-        role: "Web Developer Intern", 
-        url: [
-            {
-                behance: "",
-                github: "",
-            }
-        ],
-        img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png", 
-        alt: "IBC Traffic Website Homepage",
-        keyFeatures: [
-            "User-Centered Design",
-            "Custom Elements",
-            "Interactive Information Cards",
-            "Responsive Testing",
-        ],
-        technologiesUsed: [
-            "Languages: HTML, CSS, & JavaScript",
-            "Design Tools: Figma",
-            "Platform: SquareSpace",
-        ],
-        challengesFaced: [
-            "Encountered challenges with integrating custom HTML, CSS, and JavaScript on Squarespace's platform, requiring research and learning new techniques to overcome limitations and add dynamic elements",
+    // { 
+    //     id: 2, 
+    //     slug: "IBCTrafficWebsite",
+    //     name: "IBC Traffic, Inc Website", 
+    //     category: "Front-End", 
+    //     desc: "I worked closely with senior management to define the business requirements for a corporate website redesign, resulting in a more intuitive user experience and a noticeable increase in both site traffic and conversions. My role involved designing dynamic website features using Figma for prototyping and implementing them on Squarespace, utilizing custom HTML, CSS, and JavaScript to enhance functionality and aesthetics. Throughout the project, I conducted continuous user testing and incorporated feedback, refining the design to ensure it met both user expectations and business goals.", 
+    //     role: "Web Developer Intern", 
+    //     url: [
+    //         {
+    //             behance: "",
+    //             github: "",
+    //         }
+    //     ],
+    //     img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png", 
+    //     alt: "IBC Traffic Website Homepage",
+    //     keyFeatures: [
+    //         "User-Centered Design",
+    //         "Custom Elements",
+    //         "Interactive Information Cards",
+    //         "Responsive Testing",
+    //     ],
+    //     technologiesUsed: [
+    //         "Languages: HTML, CSS, & JavaScript",
+    //         "Design Tools: Figma",
+    //         "Platform: SquareSpace",
+    //     ],
+    //     challengesFaced: [
+    //         "Encountered challenges with integrating custom HTML, CSS, and JavaScript on Squarespace's platform, requiring research and learning new techniques to overcome limitations and add dynamic elements",
             
-        ],
-        lessonsLearned: [
-            "Utilizing transfrom and transition CSS properties in CSS to create smooth animations and interactive elements, enhancing the user experience.",
-            "Learned the importance of maintaining clear communication with senior management to adapt the design to meet evolving business requirements and ensure project success",
-            "Gained experience in iterative design and development, continually refining the website based on feedback and testing, ensuring a high-quality end product",
-            "Learned to creatively work within the constraints of the Squarespace platform, leveraging custom code solutions to extend functionality without compromising design integrity",
-        ],
-        outcomes: [
-            "Delivered a responsive, user-friendly website with a clean, modern design that improved user engagement and retention",
-            " Implemented strategic user journey designs that facilitated smoother navigation and easier client conversion, contributing to higher client acquisition rates",
-            "Delivered the project on time, meeting all business objectives, and successfully created a scalable website that will support the company’s long-term digital strategy",
-        ],
-    },
+    //     ],
+    //     lessonsLearned: [
+    //         "Utilizing transfrom and transition CSS properties in CSS to create smooth animations and interactive elements, enhancing the user experience.",
+    //         "Learned the importance of maintaining clear communication with senior management to adapt the design to meet evolving business requirements and ensure project success",
+    //         "Gained experience in iterative design and development, continually refining the website based on feedback and testing, ensuring a high-quality end product",
+    //         "Learned to creatively work within the constraints of the Squarespace platform, leveraging custom code solutions to extend functionality without compromising design integrity",
+    //     ],
+    //     outcomes: [
+    //         "Delivered a responsive, user-friendly website with a clean, modern design that improved user engagement and retention",
+    //         " Implemented strategic user journey designs that facilitated smoother navigation and easier client conversion, contributing to higher client acquisition rates",
+    //         "Delivered the project on time, meeting all business objectives, and successfully created a scalable website that will support the company’s long-term digital strategy",
+    //     ],
+    // },
 ];
 
 function Portfolio() {
@@ -154,6 +154,20 @@ function Portfolio() {
                             {category}
                         </button>
                     ))}
+                </div>
+
+                <div className={styles.dropdownContainer}>
+                    <select
+                        value={selectedCategory}
+                        onChange={(e) => setSelectedCategory(e.target.value)}
+                    >
+                        {categories.map((category, index) => (
+                            <option key={index} value={category}>
+                                {category}
+                            </option>
+                        ))}
+                    </select>
+
                 </div>
 
                 <div className={styles.projectCardContainer}>
@@ -226,7 +240,7 @@ function Portfolio() {
                             />
                         </div>
                         <hr />
-                        <h2>Key Features</h2>
+                        <h2>KEY FEATURES</h2>
                         <ul>
                             {selectedProject.keyFeatures.map((feature, index) => (
                                 <li key={index}>
@@ -234,7 +248,7 @@ function Portfolio() {
                                 </li>
                             ))}
                         </ul>
-                        <h2>Technologies Used</h2>
+                        <h2>TECHNOLOGIES USED</h2>
                         <ul>
                             {selectedProject.technologiesUsed.map((technology, index) => (
                                 <li key={index}>
@@ -242,7 +256,7 @@ function Portfolio() {
                                 </li>
                             ))}
                         </ul>
-                        <h2>Challenges Faced</h2>
+                        <h2>CHALLENGES FACED</h2>
                         <ul>
                             {selectedProject.challengesFaced.map((challenge, index) => (
                                 <li key={index}>
@@ -250,7 +264,7 @@ function Portfolio() {
                                 </li>
                             ))}
                         </ul>
-                        <h2>Lessons Learned</h2>
+                        <h2>LESSONS LEARNED</h2>
                         <ul>
                             {selectedProject.lessonsLearned.map((lesson, index) => (
                                 <li key={index}>
@@ -258,7 +272,7 @@ function Portfolio() {
                                 </li>
                             ))}
                         </ul>
-                        <h2>Outcome and Impact</h2>
+                        <h2>OUTCOME AND IMPACT</h2>
                         <ul>
                             {selectedProject.outcomes.map((outcome, index) => (
                                 <li key={index}>

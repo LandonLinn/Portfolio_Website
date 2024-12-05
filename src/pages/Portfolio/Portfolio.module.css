@@ -8,7 +8,11 @@
     gap: 20px;
 }
 
-.buttonsContainer button {
+.dropdownContainer {
+    display: none;
+}
+
+.buttonsContainer .buttons {
     background: none;
     width: 25%;
     border: 2px solid #0077b6;
@@ -51,7 +55,7 @@
 
 .card img {
     width: 100%;
-    max-height: 250px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -78,14 +82,27 @@
 }
 
 @media screen and (max-width: 950px) {
-    .buttonsContainer{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+
+    .buttonsContainer {
+        display: none;
     }
     
-    .buttonsContainer button {
-        width: calc(50% - 10px);
+    .dropdownContainer {
+        display: block;
+    }
+
+    .dropdownContainer select {
+        background: none;
+        width: 100%;
+        border: 2px solid #0077b6;
+        color: #0077b6;
+        padding: 15px 10px;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    .dropdownContainer select option {
+        color: black;
     }
 
 }

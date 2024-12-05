@@ -9,25 +9,28 @@ function MobileSidebar({ isOpen, onClose }) {
     return (
         <div  className={`${styles.sidebarContainer} ${isOpen ? styles.open : ""}`}> 
 
-            <button className={styles.closeButton} onClick={onClose}>
-                &times;
-            </button>
+            <div className={styles.contentContainer}>
 
-            <ProfilePicture 
-                src="./assets/Headshot-colored.png" 
-                alt="Picture of Me - Landon Linn" 
-            />
+                <button className={styles.closeButton} onClick={onClose}>
+                    &times;
+                </button>
 
-            <NameDesc 
-                title="Landon Linn"
-                occupation="Student at The University of Tennessee" 
-            />
+                <ProfilePicture 
+                    src="./assets/Headshot-colored.png" 
+                    alt="Picture of Me - Landon Linn" 
+                />
 
-            <SocialLinks />
+                <NameDesc 
+                    title="Landon Linn"
+                    occupation="Student at The University of Tennessee" 
+                />
 
-            <Nav onClose={onClose} />
+                <SocialLinks />
 
-            <ResumeDownload/>
+                <Nav onClose={onClose} />
+
+                <ResumeDownload/>
+            </div>
             
         </div>
     )

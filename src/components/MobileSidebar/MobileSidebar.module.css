@@ -1,13 +1,9 @@
 @media screen and (max-width: 1504px) {
     .sidebarContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
         position: fixed;
         background-color: #313131;
         visibility: hidden;
-        box-shadow: rgba(0, 0, 0, 0.826) 2px 5px 15px 15px;
+        box-shadow: rgba(0, 0, 0, 0.826) 2px 5px 500px 500px;
         top: 0;
         left: 0;
         padding: 20px 40px;
@@ -16,6 +12,15 @@
         z-index: 2;
 
         overflow-y: scroll;
+    }
+
+    .contentContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 40px;
     }
 
     .sidebarContainer.open {
@@ -29,8 +34,8 @@
         color: white;
         cursor: pointer;
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 10px;
+        left: 10px;
     }
 
     .closeButton:hover {

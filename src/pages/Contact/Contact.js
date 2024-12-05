@@ -9,11 +9,11 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         setStatus("Sending...");
-
+    
         emailjs
             .sendForm(
-                "service_gmail", // EmailJS Service ID
-                "default_template",
+                "service_egihr2a", // EmailJS Service ID
+                "default_template", // EmailJS Template ID
                 e.target,
                 "8hYkyWFqPa0ly9QD0" // EmailJS Public Key
             )
@@ -27,7 +27,8 @@ function Contact() {
                 }
             );
     };
-
+    
+    
     return (
         <div>
             <h1>CONTACT ME</h1>
@@ -36,11 +37,11 @@ function Contact() {
             <div className={styles.container}>
                 <div className={styles.card}>
                     <img src="/assets/Icons/phone.png" alt="Phone Icon" className={styles.icon} />
-                    <p>678-772-3174</p>
+                    <a href="tel:678-772-3174" className={styles.contactLink}>678-772-3174</a>
                 </div>
                 <div className={`${styles.card} ${styles.middle}`}>
                     <img src="/assets/Icons/mail.png" alt="Mail Icon" className={styles.icon} />
-                    <p>landonlinn1@gmail.com</p>
+                    <a href="mailto:landonlinn1@gmail.com" >landonlinn1@gmail.com</a>
                 </div>
                 <div className={styles.card}>
                     <img src="/assets/Icons/location.png" alt="Location Icon" className={styles.icon} />
@@ -62,7 +63,9 @@ function Contact() {
 
                     <button type="submit">Send</button>
                 </form>
-                <p className={styles.status}>{status}</p>
+                <p className={`${styles.status} ${status.includes("failed") ? styles.error : styles.success}`}>
+                    {status}
+                </p>
             </div>
 
             <hr />
