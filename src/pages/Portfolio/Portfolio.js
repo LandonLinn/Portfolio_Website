@@ -18,6 +18,7 @@ const projects = [
             {
                 behance: "https://www.behance.net/gallery/214052755/Personal-Portfolio-Website",
                 github: "https://github.com/LandonLinn/Portfolio_Website/tree/master",
+                preview: "https://www.landonlinn.com",
             }
         ],
         img: "../assets/PortfolioImages/portfolio-homepage.png", 
@@ -50,8 +51,46 @@ const projects = [
             "By building this project, I gained hands-on experience in structuring content, creating interactive elements, and ensuring cross-device compatibility. The project also served as an opportunity to implement best practices in UI/UX design, as I focused on delivering a simple and intuitive user experience. As a result, I now have a professional online presence that not only highlights my technical skills but also reflects my attention to detail and commitment to continuous learning."
         ],
     },
+    { 
+        id: 2, 
+        slug: "TodoListApp",
+        name: "Todo List", 
+        category: "Front-End", 
+        desc: "This project demonstrates my ability to create a functional and interactive to-do list application using HTML, CSS, and JavaScript. The goal was to strengthen my foundational web development skills while focusing on core concepts. The application features the ability to add, edit, and delete tasks, as well as mark them as complete. Using JavaScript and the DOM, I implemented dynamic task rendering, ensuring seamless user interaction. The minimalist design, crafted with CSS, enhances usability while maintaining a clean, user-friendly interface.", 
+        role: "Developer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214200935/Todo-List-App?",
+                github: "https://github.com/LandonLinn/TodoApp/tree/master",
+                preview: "https://landonlinn.github.io/TodoApp/",
+            }
+        ],
+        img: "../assets/PortfolioImages/portfolio-todoapp.png", 
+        alt: "TodoApp",
+        keyFeatures: [
+            "Dynamic task management (add, edit, delete, and mark as complete)",
+            "Minimalist design with a focus on accessibility and usability",
+            "Interactive task rendering using JavaScript and DOM manipulation",
+        ],
+        technologiesUsed: [
+            "Languages: HTML, CSS, and JavaScript",
+            "Techniques: JavaScript DOM manipulation and CSS styling for interactivity",
+        ],
+        challengesFaced: [
+            "Understanding that functions click handlers must be called before appending to the parent object",
+            "Properly crafting the Todo Cards in the DOM to be able to create new cards with a function",
+        ],
+        lessonsLearned: [
+            "Enhanced understanding of JavaScript event handling and DOM manipulation",
+            "Improved foundational skills in writing clean, efficient HTML, CSS, and JavaScript code",
+            "Developed a deeper appreciation for the importance of user-centric design in small-scale applications",
+        ],
+        outcomes: [
+            "This project served as a hands-on opportunity to refine my web development fundamentals, particularly in JavaScript and DOM interaction. It also demonstrated the power of simplicity in design and how foundational tools can be used to build engaging user interfaces. Through this project, I gained confidence in my ability to create functional and interactive web applications without relying on frameworks"
+        ],
+    },
     // { 
-    //     id: 2, 
+    //     id: 3, 
     //     slug: "IBCTrafficWebsite",
     //     name: "IBC Traffic, Inc Website", 
     //     category: "Front-End", 
@@ -229,6 +268,17 @@ function Portfolio() {
                                             target="_blank" 
                                             rel="noopener noreferrer"
                                         > GitHub
+                                        </a>
+
+                                        <br/>
+
+                                        Live Preview:  
+                                        <a 
+                                            href={url.preview}
+                                            className={styles.projectURL}  
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        > Preview
                                         </a>
                                     </p>
                                ))}
