@@ -217,13 +217,15 @@ function Portfolio() {
                             <div
                                 key={project.id}
                                 className={styles.card}
-                                onClick={() => handleOpenModal(project)}
                             >
                                 <img src={project.img} alt={project.alt} />
                                 <div className={styles.cardInfo}>
                                     <h3>{project.name}</h3>
                                     <p><em>{project.category}</em></p>
                                     <p className={styles.cardDesc}>{project.desc}</p>
+                                </div>
+                                <div>
+                                    <p className={styles.link} onClick={() => handleOpenModal(project)}>See More →</p>
                                 </div>
                             </div>
                         ))
@@ -250,6 +252,17 @@ function Portfolio() {
                                     <p 
                                         key={index}
                                     >
+                                        Live Preview:  
+                                        <a 
+                                            href={url.preview}
+                                            className={styles.projectURL}  
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        > Preview
+                                        </a>
+
+                                        <br/>
+
                                         Project Images: 
                                         <a 
                                             href={url.behance}
@@ -268,17 +281,6 @@ function Portfolio() {
                                             target="_blank" 
                                             rel="noopener noreferrer"
                                         > GitHub
-                                        </a>
-
-                                        <br/>
-
-                                        Live Preview:  
-                                        <a 
-                                            href={url.preview}
-                                            className={styles.projectURL}  
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                        > Preview
                                         </a>
                                     </p>
                                ))}
