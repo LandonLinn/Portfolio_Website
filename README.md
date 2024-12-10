@@ -8,7 +8,7 @@
 2. [About the Project](#about-the-project)
 3. [Key Features](#key-features)
 4. [Technologies Used](#technologies-used)
-5. [Learning Objectives](#learning-objectives)
+5. [Lessons Learned](#lessons-learned)
 6. [Contact](#contact)
 
 ---
