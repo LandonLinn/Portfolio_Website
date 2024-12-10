@@ -37,7 +37,7 @@ This is my personal portfolio website where I showcase the projects I’ve worke
 
 ## Technologies Used
 
-- **Languages:** HTML & CSS
+- **Languages:** HTML, CSS, & JavaScript
 - **Libraries**: React & EmailJS
 
 ---
