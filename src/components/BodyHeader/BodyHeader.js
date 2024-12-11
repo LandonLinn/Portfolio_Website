@@ -23,8 +23,11 @@ function BodyHeader ({title, occupation, socialMedia}){
             </button>
             
             <div className={styles.headerDescription}>
-                <h1>{title}</h1>
-                <p>{occupation}</p>
+                <img src="./assets/Personal Logo - Transparent.png" alt="Personal Logo" className={styles.logo}/>
+                <div>
+                    <h1 className={styles.title}>{title}</h1>
+                    <p className={styles.occupation}>{occupation}</p>
+                </div>
             </div>
 
             <MobileSidebar 

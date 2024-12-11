@@ -31,7 +31,18 @@
     transition: all 0.3s ease;
 }
 
-.headerDescription h1{
+.headerDescription{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.headerDescription div h1{
     font-size: 1.8rem;
     margin: 0px;
 }
@@ -44,4 +55,40 @@
     .headerContainer {
         display: none;
     }
+} 
+
+@media screen and (max-width: 550px) {
+    .title{
+        font-size: 1.2rem!important;
+        margin: 0px;
+    }
+
+    .occupation{
+        font-size: 1rem!important;
+        margin: 0px;
+    }
+    
+    .headerDescription p{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title {
+        font-size: 1.2rem!important;
+    }
+    .occupation{
+        font-size: .8rem!important;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: .9rem!important;
+    }
+    .occupation{
+        font-size: .7rem!important;
+    }
+
 }
