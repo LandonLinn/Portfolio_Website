@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import Modal from "../../components/Modal/Modal";
 import modalStyles from "../../components/Modal/Modal.module.css";
 
+
 // Projects
 const projects = [
     { 
@@ -89,8 +90,193 @@ const projects = [
             "This project served as a hands-on opportunity to refine my web development fundamentals, particularly in JavaScript and DOM interaction. It also demonstrated the power of simplicity in design and how foundational tools can be used to build engaging user interfaces. Through this project, I gained confidence in my ability to create functional and interactive web applications without relying on frameworks"
         ],
     },
+    {
+        id: 3,
+        slug: "LuckyShrubWebsite",
+        name: "Lucky Shrub Website", 
+        category: "Front-End", 
+        desc: "In this project, I built the homepage for Lucky Shrubs, a fictional website focused on showcasing the medium-sized garden design firm that specializes in garden design and creation, maintenance, and landscaping. The goal was to design a simple yet visually appealing page that effectively organizes content using CSS Grid. I used grid-area to position elements, ensuring that the layout remains responsive and user-friendly across different screen sizes. The project helped me strengthen my front-end development skills, particularly in CSS Grid and responsive design.", 
+        role: "Developer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214566401/Lucky-Shrub-Website-Homepage",
+                github: "https://github.com/LandonLinn/LuckyShrubWebsite",
+                preview: "https://landonlinn.github.io/LuckyShrubWebsite/"
+            }
+        ],
+        img: "../assets/PortfolioImages/Lucky Shrub.png", 
+        alt: "Lucky Shrub Website Project",
+        keyFeatures: [
+            "Responsive layout designed with CSS Grid.",
+            "Minimalistic design to emphasize content clarity.",
+            "Optimized user experience for multiple screen sizes."
+        ],
+        technologiesUsed: [
+            "Languages: HTML & CSS",
+        ],
+        challengesFaced: [
+            "Ensuring compatibility across different browsers and devices.",
+            "Effectively using CSS Grid areas for a dynamic yet simple layout."
+        ],
+        lessonsLearned: [
+            "Deepened understanding of CSS Grid and its versatility.",
+            "Importance of maintaining a balance between aesthetics and usability in web design."
+        ],
+        outcomes: [
+            "Successfully created a fully responsive homepage for Lucky Shrubs.",
+            "Enhanced expertise in front-end development techniques and tools."
+        ]
+    },
+    {
+        id: 4, 
+        slug: "MinimalBlogCard",
+        name: "Minimal Blog Card", 
+        category: "Front-End", 
+        desc: "The Minimal Blog Card is a simple web component created using HTML and CSS. The challenge involved replicating a provided image while treating the task as if I were implementing a designer's work. This exercise allowed me to focus on pixel-perfect design implementation and attention to visual details.", 
+        role: "Developer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214566425/Minimalist-Blog-Card-devChallengescom",
+                github: "https://github.com/LandonLinn/MinimalBlogCard-devChallenges",
+                preview: "https://landonlinn.github.io/MinimalBlogCard-devChallenges/"
+            }
+        ],
+        img: "../assets/PortfolioImages/Minimal Blog Card.png", 
+        alt: "Minimal Blog Card Project",
+        keyFeatures: [
+            "Pixel-perfect design replication.",
+            "Clean and minimalist layout.",
+            "Responsive design adjustments for different screen sizes."
+        ],
+        technologiesUsed: [
+            "Languages: HTML & CSS",
+        ],
+        challengesFaced: [
+            "Matching the exact layout and spacing of the design provided.",
+            "Ensuring font styles and colors matched the original image."
+        ],
+        lessonsLearned: [
+            "Gained experience in implementing designer-provided mockups.",
+            "Refined skills in achieving visual accuracy using CSS."
+        ],
+        outcomes: [
+            "Successfully created a functional and visually accurate blog card component.",
+            "Improved ability to translate design into code efficiently."
+        ]
+    },    
+    {
+        id: 5, 
+        slug: "BusinessBlogCard",
+        name: "Business Blog Card", 
+        category: "Front-End", 
+        desc: "This project involved designing and developing a visually appealing blog card component, emphasizing responsiveness and design replication. The aim was to create a fully functional and visually accurate blog card layout based on the provided design brief.", 
+        role: "Developer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214566357/Business-Blog-Card-decChallengescom",
+                github: "https://github.com/LandonLinn/BusinessBlogCard---devChallenges",
+                preview: "https://landonlinn.github.io/BusinessBlogCard---devChallenges/"
+            }
+        ],
+        img: "../assets/PortfolioImages/Business Blog Card.png", 
+        alt: "Business Blog Card Project",
+        keyFeatures: [
+            "Accurate design replication from the brief.",
+            "Responsive design for optimal display on various devices.",
+            "Clean and professional appearance suitable for business use."
+        ],
+        technologiesUsed: [
+            "Languages: HTML & CSS",
+        ],
+        challengesFaced: [
+            "Ensuring responsiveness without deviating from the provided design.",
+            "Managing precise alignment and typography adjustments for a professional finish."
+        ],
+        lessonsLearned: [
+            "Improved skills in replicating designs to meet professional standards.",
+            "Enhanced understanding of creating business-oriented design components."
+        ],
+        outcomes: [
+            "Delivered a polished and functional blog card layout.",
+            "Strengthened expertise in responsive design and front-end development."
+        ]
+    },    
+    {
+        id: 6, 
+        slug: "TestimonialPage",
+        name: "Testimonial Page", 
+        category: "Front-End", 
+        desc: "This project involved creating a responsive testimonial page using HTML and CSS. I designed a clean, user-friendly layout with testimonial cards, each displaying customer feedback. By utilizing flexbox and CSS grid, I ensured the page is visually appealing and adapts to different screen sizes. This challenge helped me strengthen my foundational web development skills and improve my layout design abilities.", 
+        role: "Developer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214566449/Testimonial-Page-devChallengescom",
+                github: "https://github.com/LandonLinn/TestimonialPage-devChallenges",
+                preview: "https://landonlinn.github.io/TestimonialPage-devChallenges/"
+            }
+        ],
+        img: "../assets/PortfolioImages/Testimonial Page.png", 
+        alt: "Testimonial Page Project",
+        keyFeatures: [
+            "Responsive design for seamless user experience on various devices.",
+            "Clean and structured layout with individual testimonial cards.",
+            "Use of CSS grid and flexbox for efficient layout organization."
+        ],
+        technologiesUsed: [
+            "Languages: HTML & CSS",
+        ],
+        challengesFaced: [
+            "Balancing aesthetic appeal with layout functionality.",
+            "Ensuring testimonial cards were visually consistent across screen sizes."
+        ],
+        lessonsLearned: [
+            "Gained confidence in implementing responsive layouts using CSS Grid and Flexbox.",
+            "Improved understanding of how to structure testimonials for maximum readability."
+        ],
+        outcomes: [
+            "Delivered a responsive and visually appealing testimonial page.",
+            "Enhanced ability to create user-friendly designs with optimized layouts."
+        ]
+    },    
+    {
+        id: 7, 
+        slug: "PersonalLogo",
+        name: "Personal Logo", 
+        category: "Graphic Design", 
+        desc: "This project involved designing a unique logo to represent my personal brand. The goal was to create a versatile design that reflects my professional identity and can be applied across various platforms and mediums.", 
+        role: "Designer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214572891/My-Personal-Logo",
+                github: "",
+                preview: "",
+            }
+        ],
+        img: "../assets/Personal Logo.png", 
+        alt: "Personal Logo Project",
+        keyFeatures: [
+            "Clean and modern design tailored for personal branding.",
+            "Versatile for use across digital and print platforms.",
+            "Reflects professionalism and creativity."
+        ],
+        technologiesUsed: [
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ],
+        challengesFaced: [
+            "Balancing simplicity with a design that stands out.",
+            "Ensuring scalability for both large and small formats."
+        ],
+        lessonsLearned: [
+            "Refined my understanding of logo design principles.",
+            "Developed skills in creating designs for personal branding."
+        ],
+        outcomes: [
+            "Delivered a professional personal logo suitable for branding.",
+        ]
+    },    
     // { 
-    //     id: 3, 
+    //     id: , 
     //     slug: "IBCTrafficWebsite",
     //     name: "IBC Traffic, Inc Website", 
     //     category: "Front-End", 
@@ -99,7 +285,8 @@ const projects = [
     //     url: [
     //         {
     //             behance: "",
-    //             github: "",
+                    // github: "",
+                    // preview: "",
     //         }
     //     ],
     //     img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png", 
@@ -146,6 +333,17 @@ function Portfolio() {
 
     // Categories
     const categories = ["All Projects", "Front-End", "Back-End", "Graphic Design", "Full-Stack"];
+    const categoryDesc = {
+        allprojects: "A collection of all the projects I have worked on, showcasing practices, tests, and full projects",
+        frontend: "A collection of front-end projects focusing on user interface design, responsiveness, and interactivity",
+        backend: "A collection of back-end projects highlighting server-side logic, database management, and API integration",
+        graphicdesign: "A collection of graphic design work consisting of UI/UX Designs, Logos, and more",
+        fullstack: "A collection of full-stack projects combining both front-end and back-end technologies to deliver complete solutions",
+    };
+
+    // Remove white space and dashes
+    const normalizeCategory = (category) =>
+        category.replace(/[\s-]/g, "").toLowerCase();
 
     // Filtering
     const filteredProjects = selectedCategory === "All Projects"
@@ -183,6 +381,7 @@ function Portfolio() {
             <h1>MY PORTFOLIO</h1>
             <hr />
             <div className={styles.portfolioContainer}>
+
                 <div className={styles.buttonsContainer}>
                     {categories.map((category, index) => (
                         <button
@@ -206,7 +405,12 @@ function Portfolio() {
                             </option>
                         ))}
                     </select>
+                </div>
 
+                <div className={styles.categoryDesc}>
+                    <p>
+                        {categoryDesc[normalizeCategory(selectedCategory)] || "Explore projects in this category."}
+                    </p>
                 </div>
 
                 <div className={styles.projectCardContainer}>
@@ -253,35 +457,47 @@ function Portfolio() {
                                         key={index}
                                     >
                                         Live Preview:  
-                                        <a 
-                                            href={url.preview}
-                                            className={styles.projectURL}  
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                        > Preview
-                                        </a>
+                                        {url.preview ? (
+                                            <a 
+                                                href={url.preview}
+                                                className={styles.projectURL}  
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                            > Preview
+                                            </a>
+                                        ) : (
+                                            <span className={styles.projectURLtext}> No link available</span>
+                                        )}
 
                                         <br/>
 
-                                        Project Images: 
-                                        <a 
-                                            href={url.behance}
-                                            className={styles.projectURL} 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                        > Behance
-                                        </a>
+                                        Project Images:
+                                        {url.behance ? (
+                                            <a 
+                                                href={url.behance}
+                                                className={styles.projectURL} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                            > Behance
+                                            </a>
+                                        ) : (
+                                            <span className={styles.projectURLtext}> No link available</span>
+                                        )}
 
                                         <br/>
 
                                         Project Files:  
-                                        <a 
-                                            href={url.github}
-                                            className={styles.projectURL}  
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                        > GitHub
-                                        </a>
+                                        {url.github ? (
+                                            <a 
+                                                href={url.github}
+                                                className={styles.projectURL}  
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                            > GitHub
+                                            </a>
+                                        ) : (
+                                            <span className={styles.projectURLtext}> No link available</span>
+                                        )}
                                     </p>
                                ))}
 

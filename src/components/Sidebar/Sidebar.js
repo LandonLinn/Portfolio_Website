@@ -11,7 +11,7 @@ function Sidebar({ title, occupation }) {
         <div className={styles.sidebarContainer}> 
 
             <ProfilePicture 
-                src="./assets/Headshot-colored.png" 
+                src="/assets/Headshot-colored.png" 
                 alt="Picture of Me - Landon Linn" 
             />
 

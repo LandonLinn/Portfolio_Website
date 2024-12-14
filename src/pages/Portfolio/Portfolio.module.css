@@ -34,6 +34,10 @@
     border: 2px solid #905d0a;
 }
 
+.categoryDesc {
+    margin-top: 20px;
+}
+
 .projectCardContainer {
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +57,7 @@
 
 .card img {
     width: 100%;
-    height: 50%;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -85,9 +89,11 @@
     color:#FCA311;
 }
 
+.projectURLtext,
 .projectURL {
     color: #515151;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .projectURL:hover {

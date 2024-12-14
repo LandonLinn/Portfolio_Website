@@ -16,7 +16,7 @@ function MobileSidebar({ isOpen, onClose }) {
                 </button>
 
                 <ProfilePicture 
-                    src="./assets/Headshot-colored.png" 
+                    src="/assets/Headshot-colored.png" 
                     alt="Picture of Me - Landon Linn" 
                 />
 
@@ -30,6 +30,7 @@ function MobileSidebar({ isOpen, onClose }) {
                 <Nav onClose={onClose} />
 
                 <ResumeDownload/>
+
             </div>
             
         </div>

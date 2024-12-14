@@ -17,6 +17,13 @@
     width: 100%;
 }
 
+.waveOverlay {
+    position: relative;
+    width: 100%;
+    top: -780px;
+    z-index: 1;
+}
+
 .bodyContainer{
     background-color: #313131;
     border-radius: 15px;

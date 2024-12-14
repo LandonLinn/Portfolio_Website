@@ -6,17 +6,17 @@ function SocialLinks (){
         {
           platform: "LinkedIn",
           url: "https://www.linkedin.com/in/landon-linn/",
-          icon: "./assets/Icons/linkedin-icon.png",
+          icon: "/assets/Icons/linkedin-icon.png",
         },
         {
           platform: "GitHub",
           url: "https://github.com/LandonLinn",
-          icon: "./assets/Icons/github-icon.png",
+          icon: "/assets/Icons/github-icon.png",
         },
         {
           platform: "Behance",
           url: "https://www.behance.net/landonlinn1",
-          icon: "./assets/Icons/behance-icon.png",
+          icon: "/assets/Icons/behance-icon.png",
         }
       ];
 

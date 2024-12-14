@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./BodyHeader.module.css";
 import MobileSidebar from "../MobileSidebar/MobileSidebar";
+import { Link } from "react-router-dom";
 
 function BodyHeader ({title, occupation, socialMedia}){
 
@@ -22,8 +23,12 @@ function BodyHeader ({title, occupation, socialMedia}){
                 <div className={styles.line}></div>
             </button>
             
+            <Link to="/">
+                <img src="/assets/Personal Logo - Transparent.png" alt="Personal Logo" className={styles.logo}/>
+            </Link>
+            
             <div className={styles.headerDescription}>
-                <img src="./assets/Personal Logo - Transparent.png" alt="Personal Logo" className={styles.logo}/>
+
                 <div>
                     <h1 className={styles.title}>{title}</h1>
                     <p className={styles.occupation}>{occupation}</p>

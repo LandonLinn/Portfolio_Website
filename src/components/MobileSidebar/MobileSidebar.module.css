@@ -23,6 +23,14 @@
         padding-bottom: 40px;
     }
 
+    .waveOverlay {
+        position: relative;
+        width: 100%;
+        min-height: 100px;
+        bottom: 600px;
+        z-index: 1;
+    }
+
     .sidebarContainer.open {
         visibility: visible;
     }

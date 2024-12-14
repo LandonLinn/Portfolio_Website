@@ -8,13 +8,20 @@ function Footer () {
         <div>
             <div className={styles.footerContainer}>
 
-                <div className={styles.infoContainer}>   
-                    <h2>Landon Linn</h2>
-                    <p>Student at The University of Tennessee</p>
+                <div className={styles.infoContainer}>  
 
+                    <div className={styles.nameContainer}>
+                        <img src="./assets/Personal Logo - Transparent.png" alt="Personal Logo" className={styles.logo}/>  
+                        <div className={styles.desc}>
+                            <h2>Landon Linn</h2>
+                            <p>Student at The University of Tennessee</p>
+                        </div>
+                    </div>
+                        
                     <ContactButton />
 
                     <SocialLinks />
+
                 </div>
 
                 <div className={styles.exploreContainer}>
