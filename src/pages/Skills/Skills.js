@@ -145,10 +145,10 @@ function Skills () {
                 <div>
                     <div className={styles.certTitle}>
                         <img src="../assets/Icons/AWS-Cloud-Badge.png" alt="AWS Cloud Practitioner Certification Badge" />
-                        <h3>AWS Cloud Practitioner Certification (Expected December 2024)</h3>
+                        <h3>AWS Cloud Practitioner Certification (Expected January 2025)</h3>
                     </div>
                     <ul>
-                        <li><span>Cloud Computing Fundamentals:</span> Gained a solid understanding of cloud concepts, deployment models, and core AWS services like EC2, S3, RDS, and Lambda.</li>
+                        <li><span>Cloud Computing Fundamentals:</span> Gained a solid understanding of cloud concepts, deployment models, and core AWS services including EC2, S3, RDS, and Lambda.</li>
                         <li><span>Security & Compliance:</span> Mastered AWS best practices, including IAM, data encryption, and compliance standards.</li>
                         <li><span>Cost Optimization:</span> Developed skills to estimate costs and implement tools like AWS Cost Explorer to manage budgets effectively.</li>
                         <li><span>Global Infrastructure:</span> Explored AWS’s global regions, availability zones, and tools for low-latency, high-availability solutions.</li>
@@ -166,7 +166,7 @@ function Skills () {
                     <ul>
                         <li><span>UX Design Fundamentals:</span> Mastered the principles of user-centered design, accessibility, and usability.</li>
                         <li><span>Design Thinking Process:</span> Applied the stages of design thinking: empathize, define, ideate, prototype, and test.</li>
-                        <li><span>Wireframing & Prototyping:</span> Created low- and high-fidelity wireframes and interactive prototypes using tools like Figma and Adobe XD.</li>
+                        <li><span>Wireframing & Prototyping:</span> Created low- and high-fidelity wireframes and interactive prototypes using tools including Figma and Adobe XD.</li>
                         <li><span>User Research Skills:</span> Conducted user interviews, surveys, and usability testing to gather and analyze insights.</li>
                         <li><span>Visual Design Principles:</span> Learned typography, color theory, and layout strategies for effective design communication.</li>
                         <li><span>Responsive Design:</span> Designed interfaces optimized for mobile, tablet, and desktop devices.</li>
@@ -180,7 +180,7 @@ function Skills () {
                 <div>
                     <div className={styles.certTitle}>
                         <img src="../assets/Icons/Meta-Front-End-Badge.png" alt="Meta Front-End Certification Badge" />
-                        <h3>Meta Front-End Developer Professional Certificate (Expected December 2025)</h3>
+                        <h3>Meta Front-End Developer Professional Certificate (Expected December 2024)</h3>
                     </div>
                     <ul>
                         <li><span>Front-End Development Fundamentals:</span> Gained a solid understanding of HTML, CSS, and JavaScript for building responsive and interactive web applications.</li>
@@ -188,9 +188,9 @@ function Skills () {
                         <li><span>React Expertise:</span> Built reusable components, managed state with hooks, and developed single-page applications (SPAs) using React.</li>
                         <li><span>Version Control:</span> Used Git and GitHub for collaborative development, version tracking, and deployment workflows.</li>
                         <li><span>Web Accessibility:</span> Ensured designs adhere to accessibility standards for inclusive user experiences.</li>
-                        <li><span>Responsive Design:</span> Mastered CSS frameworks like Bootstrap and Flexbox/Grid layouts for mobile-friendly interfaces.</li>
+                        <li><span>Responsive Design:</span> Mastered CSS frameworks including Bootstrap and Flexbox/Grid layouts for mobile-friendly interfaces.</li>
                         <li><span>API Integration:</span> Worked with RESTful APIs to fetch, send, and display data dynamically in applications.</li>
-                        <li><span>Testing & Debugging:</span> Applied debugging techniques and used tools like Jest to ensure application quality and reliability.</li>
+                        <li><span>Testing & Debugging:</span> Applied debugging techniques and used tools including Jest to ensure application quality and reliability.</li>
                         <li><span>Portfolio Projects:</span> Completed hands-on projects, including fully functional websites and web apps, to demonstrate front-end skills.</li>
                         <li><span>Career Preparation:</span>Developed industry-ready expertise, including interviewing tips and job application strategies for front-end roles.</li>
                     </ul>
