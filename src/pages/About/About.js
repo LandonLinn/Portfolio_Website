@@ -63,6 +63,14 @@ function About () {
                 <ul>
                     <li>Explored human-computer interaction (HCI) principles to design intuitive and effective user interfaces</li>
                 </ul>
+                <h3>The Life of Data - UTK Course</h3>
+                <ul>
+                    <li>Studied lifecycle stages—creation, selection, storage, sharing, reuse, and preservation—alongside foundational
+                    principles of effective data management.</li>
+                    <li>Examined ethical concerns such as privacy, governance, bias, and accountability in the creation and use of data.</li>
+                    <li>Explored data classification, labor, and governance frameworks to ensure fairness, security, and responsible data
+                    practices.</li>
+                </ul>
 
                 <h2>PROFESSIONAL CERTIFICATIONS</h2>
                 <ul>

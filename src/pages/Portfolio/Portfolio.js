@@ -275,6 +275,43 @@ const projects = [
             "Delivered a professional personal logo suitable for branding.",
         ]
     },    
+    {
+        id: 8, 
+        slug: "SimpleCalculator",
+        name: "Simple Calculator", 
+        category: "Front-End", 
+        desc: "A responsive and user-friendly calculator application designed to handle basic arithmetic equations with error handling and a dynamic UI.", 
+        role: "Developer", 
+        url: [
+            {
+                behance: "https://www.behance.net/gallery/214877999/Simple-Calculator",
+                github: "https://github.com/LandonLinn/SimpleCalculator",
+                preview: "https://landonlinn.github.io/SimpleCalculator/",
+            }
+        ],
+        img: "../assets/PortfolioImages/SimpleCalculator.png", 
+        alt: "Simple Calculator Project",
+        keyFeatures: [
+            "Dynamic font resizing for long equations",
+            "Error handling for invalid inputs",
+            "Responsive design for various screen sizes"
+        ],
+        technologiesUsed: [
+            "HTML, CSS, & JavaScript",
+        ],
+        challengesFaced: [
+            "Implementing dynamic font resizing for equations exceeding the display area",
+            "Ensuring precise error handling for edge cases"
+        ],
+        lessonsLearned: [
+            "Gained deeper understanding of DOM manipulation",
+            "Enhanced problem-solving skills with JavaScript math functions"
+        ],
+        outcomes: [
+            "Successfully developed and deployed a functional calculator app accessible on GitHub and live preview",
+            "Demonstrated ability to design responsive UI components"
+        ]
+    },
     // { 
     //     id: , 
     //     slug: "IBCTrafficWebsite",
