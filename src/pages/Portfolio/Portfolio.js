@@ -312,6 +312,53 @@ const projects = [
             "Demonstrated ability to design responsive UI components"
         ]
     },
+    {
+        id: 9,
+        slug: "CalorieCalculator",
+        name: "Calorie Calculator",
+        category: "Front-End",
+        desc: "An interactive tool for calculating Basal Metabolic Rate (BMR) and daily caloric needs based on user inputs like age, gender, height, weight, and activity level. Designed for ease of use and accurate results.",
+        role: "Developer",
+        url: [
+            {
+            behance: "https://www.behance.net/gallery/215124971/Calorie-Calculator",
+            github: "https://github.com/LandonLinn/CalorieCalculator",
+            preview: "https://landonlinn.github.io/CalorieCalculator/",
+            }
+        ],
+        img: "../assets/PortfolioImages/Calorie Calculator.png",
+        alt: "Calorie Calculator",
+        keyFeatures: [
+            "Input Validation: Ensures all required fields are completed before processing calculations.",
+            "Dynamic BMR Calculation: Computes BMR using the Mifflin-St Jeor equation, tailored for both male and female users.",
+            "Activity-Level Adjustments: Provides personalized calorie estimates based on different activity levels.",
+            "Clear & Reset Options: Enables users to easily reset all inputs and results for a new calculation.",
+            "Responsive Design: Optimized for seamless usability on devices of all sizes.",
+        ],
+        technologiesUsed: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+        ],
+        challengesFaced: [
+            "Handling blank inputs to prevent errors during calculations.",
+            "Designing a user-friendly UI that could accommodate various input types and devices.",
+            "Troubleshooting layout inconsistencies across different screen sizes.",
+            "Debugging issues with dynamic updates when users entered incorrect or invalid data.",
+            "Balancing simplicity and functionality without overwhelming the user.",
+        ],
+        lessonsLearned: [
+            "Improved DOM manipulation skills by dynamically updating the UI based on user interactions.",
+            "Implemented robust input validation to ensure accurate and error-free results.",
+            "Integrated mathematical formulas (BMR equations) with JavaScript for efficient data processing.",
+            "Enhanced responsive design techniques for an improved user experience on multiple devices.",
+            "Adopted clean coding practices for better readability, maintainability, and scalability.",
+        ],
+        outcomes: [
+            "Successfully developed a functional and user-friendly tool that has been well-received for its accuracy and design.",
+            "Showcased my ability to build practical applications using front-end technologies.",
+        ]
+    },
     // { 
     //     id: , 
     //     slug: "IBCTrafficWebsite",

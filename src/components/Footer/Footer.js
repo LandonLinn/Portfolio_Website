@@ -11,7 +11,7 @@ function Footer () {
                 <div className={styles.infoContainer}>  
 
                     <div className={styles.nameContainer}>
-                        <img src="./assets/Personal Logo - Transparent.png" alt="Personal Logo" className={styles.logo}/>  
+                        <img src="/assets/Personal Logo - Transparent.png" alt="Personal Logo" className={styles.logo}/>  
                         <div className={styles.desc}>
                             <h2>Landon Linn</h2>
                             <p>Student at The University of Tennessee</p>
