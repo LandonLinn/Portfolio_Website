@@ -1,31 +1,31 @@
-# Personal Portfolio Website
+# 🧑‍💻 Personal Portfolio Website
 
 > Built using HTML, CSS, JavaScript, and React the site is designed to be simple, clean, and easy to navigate. It includes sections for a brief overview of my background, portfolio, and a contact form for potential clients or employers.
 
-## Table of Contents
+## 📑 Table of Contents
 
-1. [Live Preview](#live-preview)
-2. [About the Project](#about-the-project)
-3. [Key Features](#key-features)
-4. [Technologies Used](#technologies-used)
-5. [Lessons Learned](#lessons-learned)
-6. [Contact](#contact)
+1. [Live Preview](#-live-preview)
+2. [About the Project](#-about-the-project)
+3. [Key Features](#-key-features)
+4. [Technologies Used](#-technologies-used)
+5. [Lessons Learned](#-lessons-learned)
+6. [Contact](#-contact)
 
 ---
 
-## Live Preview
+## 👀 Live Preview
 
 [Preview](https://www.landonlinn.com)
 
 ---
 
-## About the Project
+## 🔍 About the Project
 
 This is my personal portfolio website where I showcase the projects I’ve worked on and the skills I've developed as a Student. Built using HTML, CSS, JavaScript, and React the site is designed to be simple, clean, and easy to navigate. It includes sections for a brief overview of my background, portfolio, and a contact form for potential clients or employers. This project highlights my ability to create responsive and user-friendly websites and serves as an introduction to my work and development journey.
 
 ---
 
-## Key Features
+## 🔑 Key Features
 
 - **Feature 1**: Responsive Design
 - **Feature 2**: Simple, Clean Layout
@@ -35,14 +35,14 @@ This is my personal portfolio website where I showcase the projects I’ve worke
 
 ---
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 - **Languages:** HTML, CSS, & JavaScript
 - **Libraries**: React & EmailJS
 
 ---
 
-## Lessons Learned
+## 🧠 Lessons Learned
 
 - React's useState
 - React's map() & filter() functions
@@ -52,7 +52,7 @@ This is my personal portfolio website where I showcase the projects I’ve worke
 
 ---
 
-## Contact
+## 📬 Contact
 
 - **My Name**: Landon Linn
 - **Website**: [My Website](https://www.landonlinn.com/)
