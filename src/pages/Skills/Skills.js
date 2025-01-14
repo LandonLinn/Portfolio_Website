@@ -180,7 +180,7 @@ function Skills () {
                 <div>
                     <div className={styles.certTitle}>
                         <img src="../assets/Icons/Meta-Front-End-Badge.png" alt="Meta Front-End Certification Badge" />
-                        <h3>Meta Front-End Developer Professional Certificate (Expected December 2024)</h3>
+                        <h3>Meta Front-End Developer Professional Certificate (Completed January 2025)</h3>
                     </div>
                     <ul>
                         <li><span>Front-End Development Fundamentals:</span> Gained a solid understanding of HTML, CSS, and JavaScript for building responsive and interactive web applications.</li>
