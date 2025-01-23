@@ -4,6 +4,7 @@ import SocialLinks from "../SocialLinks/SocialLinks";
 import styles from "./Footer.module.css";
 
 function Footer () {
+
     return (
         <div>
             <div className={styles.footerContainer}>
@@ -35,7 +36,7 @@ function Footer () {
             </div>
 
             <hr />
-            <p>&#169; 2024 Landon Linn</p>
+            <p>&#169; 2025 Landon Linn</p>
         </div>
     );
 }
