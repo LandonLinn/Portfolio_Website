@@ -58,6 +58,11 @@ function Skills () {
             name: "MS Access", 
             icon: "../assets/Icons/MSAccess.png", 
             alt: "Micrsoft Access Icon"
+        },
+        {
+            name: "Database Design", 
+            icon: "./assets/Icons/DatabaseDesign.png", 
+            alt: "Database Design Icon"
         }
     ];
 

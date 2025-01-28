@@ -15,29 +15,25 @@ function About () {
                 <p><span>Name:</span> Landon Linn</p>
                 <p><span>Age:</span> 22</p>
                 <p><span>College:</span> The University of Tennessee</p>
-                <p><span>Major: </span> Information Science</p>
-                <p><span>Concentration: </span> User Experience Design</p>
+                <p><span>Degree: </span> Bachelor of Science, Information Science (BSIS)</p>
+                <p><span>Major / Concentration:   </span> User Experience Design (UXD)</p>
                 <p><span>Major GPA: </span> 3.56/4.00</p>
-                <p><span>Graduation Year: </span> 2025</p>
-                <p><span>Location: </span> Alpharetta, GA</p>
+                <p><span>Graduation Date: </span> May 2025</p>
+                <p><span>Address: </span> Alpharetta, GA</p>
 
                 <h2>SUMMARY STATEMENT</h2>
-                <p>Information Science student, graduating in May 2025, specializing in UX Design. 
-                    Proficient in Python, SQL, C++, HTML, CSS, and JavaScript, with practical experience in full-stack development. 
-                    Looking to leverage technical expertise and a strong understanding of user-centered design in an entry-level role as a 
-                    Software Engineer, Front-End Developer, UX Developer, or similar position. Committed to delivering innovative, 
-                    efficient, and scalable solutions.</p>
+                <p>Information Science student specializing in UX Design, graduating in May 2025. 
+                    Proficient in Python, SQL, C++, HTML, CSS, and JavaScript, with hands-on experience in full-stack development. 
+                    Seeking an entry-level role as a Software Engineer, Front-End Developer, or UX Developer to apply technical expertise and a deep understanding of user-centered design. 
+                    Dedicated to creating innovative, efficient, and scalable solutions, with strong technical skills and proven leadership in collaborative team environments.</p>
 
                 <h2>RELEVANT EXPERIENCE</h2>
                 <h3>Web Developer with IBC Traffic, Remote,  May 2024 - Current</h3>
                 <em>Internship</em>
                 <ul>
-                    <li>Collaborated with senior management to capture business requirements for the redesign of the corporate website,
-                    leading to improved user experience and a measurable increase in traffic and conversions.</li>
-                    <li>Designed and deployed dynamic website features using Figma for prototyping, Squarespace for hosting, and custom
-                    HTML, CSS, and JavaScript, improving site functionality and aesthetics.</li>
-                    <li>Conducted iterative user testing and feedback sessions, refining the site based on insights, resulting in a more
-                    intuitive and satisfying user experience.</li>
+                    <li>Redesigned the corporate website to address outdated design and usability challenges, aiming to enhance user engagement and conversions.</li>
+                    <li>Designed and implemented dynamic website features using HTML, CSS, and JavaScript, while translating Figma prototypes into responsive, user-friendly designs. Collaborated closely with senior management to ensure business goals aligned with design functionality.</li>
+                    <li>Improved website usability, resulting in increased site traffic and higher conversion rates. Successfully modernized the corporate website, leading to positive client feedback.</li>
                 </ul>
 
                 <h2>RELEVANT COURSEWORK</h2>
@@ -61,7 +57,8 @@ function About () {
                 </ul>
                 <h3>Interfaces and Interaction Design - UTK Course</h3>
                 <ul>
-                    <li>Explored human-computer interaction (HCI) principles to design intuitive and effective user interfaces</li>
+                    <li>Explored human-computer interaction (HCI) principles to design intuitive and effective user interfaces.</li>
+                    <li>Utilized UTK’s Research and Innovation Center Useability Lab to evaluate websites and how end-users interact with technology.</li>
                 </ul>
                 <h3>The Life of Data - UTK Course</h3>
                 <ul>
@@ -74,16 +71,16 @@ function About () {
 
                 <h2>PROFESSIONAL CERTIFICATIONS</h2>
                 <ul>
-                    <li>AWS Cloud Practitioner Certification (Expected January 2025)</li>
+                    <li>AWS Cloud Practitioner Certification (Expected February 2025)</li>
                     <li>Google User Experience Design Certification (Completed September 2024)</li>
                     <li>Meta Front-End Developer Professional Certificate (Completed January 2025)</li>
                 </ul>
 
                 <h2>PROFESSIONAL AFFILIATIONS</h2>
                 <ul>
-                    <li>United States Research Software Engineer Association (US-RSE) August 2024 - Present</li>
-                    <li>Association for Computing Machinery (ACM) September 2024 - Present</li>
-                    <li>International Institute of Business Analysis (IIBA) August 2024 - Present</li>
+                    <li>United States Research Software Engineer Association (US-RSE), August 2024 - Present</li>
+                    <li>International Institute of Business Analysis (IIBA), August 2024 - Present</li>
+                    <li>Association for Computing Machinery (ACM), September 2024 - Present</li>
                 </ul>
             </div>
 
