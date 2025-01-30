@@ -74,7 +74,7 @@ function About () {
 
                 <h2>PROFESSIONAL CERTIFICATIONS</h2>
                 <ul>
-                    <li>AWS Cloud Practitioner Certification (Expected January 2025)</li>
+                    {/* <li>AWS Cloud Practitioner Certification (Expected January 2025)</li> */}
                     <li>Google User Experience Design Certification (Completed September 2024)</li>
                     <li>Meta Front-End Developer Professional Certificate (Completed January 2025)</li>
                 </ul>

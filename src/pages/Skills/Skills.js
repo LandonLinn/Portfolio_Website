@@ -142,7 +142,7 @@ function Skills () {
             {/*Certification Section*/}
             <h2>PROFESSIONAL CERTIFICATIONS</h2>
             <div className={styles.certContainer}>
-                <div>
+                {/* <div>
                     <div className={styles.certTitle}>
                         <img src="../assets/Icons/AWS-Cloud-Badge.png" alt="AWS Cloud Practitioner Certification Badge" />
                         <h3>AWS Cloud Practitioner Certification (Expected January 2025)</h3>
@@ -156,7 +156,7 @@ function Skills () {
                         <li><span>Hands-On Skills:</span> Applied practical knowledge in deploying resources, monitoring workloads, and configuring permissions.</li>
                         <li><span>Foundation for Growth:</span> Prepared for advanced AWS certifications and deeper cloud roles.</li>
                     </ul>
-                </div>
+                </div> */}
 
                 <div>
                     <div className={styles.certTitle}>
