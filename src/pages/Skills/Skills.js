@@ -162,6 +162,28 @@ function Skills () {
                         <li><span>Foundation for Growth:</span> Prepared for advanced AWS certifications and deeper cloud roles.</li>
                     </ul>
                 </div> */}
+                <div>
+                    <div className={styles.certTitle}>
+                        <img src="../assets/Icons/IBM-fullstack-badge.png" alt="IBM Full Stack Software Developer Badge" />
+                        <h3>IBM Full Stack Software Developer Professional Certificate (Expected, April 2025)</h3>
+                    </div>
+                    <ul>
+                        <li><span>Front-End Development Fundamentals:</span> Gained a solid understanding of HTML, CSS, and JavaScript for building responsive and interactive web applications.</li>
+                        <li><span>Advanced JavaScript Skills:</span> Learned ES6+ syntax, DOM manipulation, event handling, and asynchronous programming for creating dynamic user experiences.</li>
+                        <li><span>React & Modern Front-End Frameworks:</span> Built reusable components, managed state with hooks, and developed single-page applications (SPAs) using React.js.</li>
+                        <li><span>Version Control & Collaboration:</span> Used Git and GitHub for collaborative development, version tracking, and deployment workflows.</li>
+                        <li><span>Web Accessibility & Responsive Design:</span> Ensured designs adhere to accessibility standards and implemented CSS frameworks like Bootstrap, Flexbox, and Grid for mobile-friendly interfaces.</li>
+                        <li><span>Back-End Development & API Integration:</span> Developed server-side applications with Node.js, Express.js, and Django. Built and consumed RESTful APIs to fetch, send, and process data dynamically.</li>
+                        <li><span>Database Management:</span> Designed and managed relational (SQL) and NoSQL databases. Utilized Django ORM for efficient database interactions.</li>
+                        <li><span>Cloud Computing & Deployment:</span> Deployed applications on cloud platforms using Docker containers, Kubernetes, and OpenShift for scalable and efficient hosting.</li>
+                        <li><span>DevOps & CI/CD Pipelines:</span> Implemented DevOps best practices, automated testing, and CI/CD pipelines for seamless integration and deployment.</li>
+                        <li><span>Microservices & Serverless Architecture:</span> Designed applications using microservices for modularity and leveraged serverless functions for scalable backend operations.</li>
+                        <li><span>AI-Powered Applications:</span> Integrated IBM Watson AI services to develop AI-driven applications using Python and Flask.</li>
+                        <li><span>Testing & Debugging:</span> Applied debugging techniques, wrote unit tests, and utilized Jest for ensuring application quality and reliability.</li>
+                        <li><span>Capstone & Portfolio Projects:</span> Developed and deployed a full-stack cloud-native application, integrating front-end and back-end technologies. Created multiple hands-on projects showcasing full-stack development skills.</li>
+                        <li><span>Career Preparation:</span> Gained industry-ready expertise, including interview strategies, resume optimization, and job application best practices for full-stack roles.</li>
+                    </ul>
+                </div>
 
                 <div>
                     <div className={styles.certTitle}>
